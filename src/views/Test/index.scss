@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: top .6s cubic-bezier(0.2, 0.98, 0.3, 1.00);
+  &.page {
+    &-1 {
+      top: 0;
+    }
+    &-2 {
+      top: -100%;
+    }
+  }
+  .first {
+    background-color: #eeaaee;
+    width: 100%;
+    height: 100%;
+  }
+  .second {
+    background-color: #aaeeaa;
+    width: 100%;
+    height: 100%;
+  }
+}
