@@ -1,10 +1,13 @@
 import React from 'react';
-import Test from '@/views/Test/Test'
+import Test from "@/views/Test";
+import {ThemeProvider} from "@/state/Provider";
 
 function App() {
   return (
     <div className="App">
-      <Test />
+      <ThemeProvider>
+        <Test />
+      </ThemeProvider>
     </div>
   );
 }

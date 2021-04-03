@@ -1,0 +1,5 @@
+enum THEME_ACTION_TYPE {
+  SET_THEME
+}
+
+export default THEME_ACTION_TYPE

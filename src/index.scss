@@ -12,3 +12,44 @@ html,body,#root,.App {
     position: relative;
   }
 }
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+html{
+  @import "Theme/light";
+  &.dark {
+    @import "Theme/dark";
+  }
+}
+
+.mr {
+  &-1 {
+    margin-right: .5rem;
+  }
+  &-2 {
+    margin-right: 1rem;
+  }
+  &-4 {
+    margin-right: 2rem;
+  }
+  &-8 {
+    margin-right: 4rem;
+  }
+}
+.font-size{
+  &-small {
+    font-size: .6rem
+  }
+  &-normal {
+    font-size: 1rem
+  }
+  &-big {
+    font-size: 1.8rem
+  }
+}
+.pointer:hover {
+  cursor: pointer;
+}
