@@ -1,12 +1,14 @@
 import React from 'react';
 import Test from "@/views/Test";
-import {ThemeProvider} from "@/state/Provider";
+import {LangProvider, ThemeProvider} from "@/state/Provider";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex-center">
       <ThemeProvider>
-        <Test />
+        <LangProvider>
+          <Test />
+        </LangProvider>
       </ThemeProvider>
     </div>
   );

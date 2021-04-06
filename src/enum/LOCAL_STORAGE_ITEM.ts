@@ -1,5 +1,6 @@
 enum LOCAL_STORAGE_ITEM {
-  THEME= 'THEME',
+  THEME = 'THEME',
+  LANG = 'LANGUAGE'
 }
 
 export default LOCAL_STORAGE_ITEM

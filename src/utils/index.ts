@@ -1,6 +1,8 @@
-import { getHistoryTheme, setTheme } from "./loccalStorage";
+import { getHistoryTheme, setTheme, getHistoryLanguage, setLanguage } from "./loccalStorage";
 
 export {
   getHistoryTheme,
-  setTheme
+  setTheme,
+  getHistoryLanguage,
+  setLanguage,
 }
